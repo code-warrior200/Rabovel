@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <div className="flex flex-wrap items-center justify-between">
@@ -29,11 +29,11 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Right Section - Stock Exchange Chart Image */}
+            {/* Right Section */}
             <div className="hidden lg:block lg:w-1/2">
               <div className="relative">
                 <Image
-                  src="/path/to/stock-exchange-chart.png" // Replace with your image path
+                  src=""
                   alt="Stock Exchange Chart"
                   width={500}
                   height={300}
