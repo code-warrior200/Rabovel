@@ -33,10 +33,10 @@ const Hero = () => {
             <div className="hidden lg:block lg:w-1/2">
               <div className="relative">
                 <Image
-                  src=""
+                  src="/images/hero/image2.jpg"
                   alt="Stock Exchange Chart"
-                  width={500}
-                  height={300}
+                  width={700}
+                  height={500}
                   className="rounded-lg shadow-lg"
                 />
               </div>
