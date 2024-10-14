@@ -14,13 +14,13 @@ const AboutSectionTwo = () => {
                 src="/images/about/about-image2.jpg"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three dark:hidden rounded-lg shadow-lg dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/about-image2.jpg"
                 alt="about image"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none rounded-lg shadow-lg"
               />
             </div>
           </div>
