@@ -10,7 +10,7 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rabovelt",
+  title: "Rabovel",
   description: "This is the website for the Rabovelt Startup",
   // other metadata
 };
