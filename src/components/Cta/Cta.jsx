@@ -26,7 +26,7 @@ const Cta = () => {
 
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full mt-10 px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
                   src="/images/about/about-image.jpg"
