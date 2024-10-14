@@ -9,7 +9,9 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="Lorem ipsum dolor sit amet,quis quas voluptatibus repellat totam natus nihil, blanditiis consequatur."
+            paragraph="Rabovel offers groundbreaking options and futures trading, 
+              setting a new standard for Nigerian investors. Unlock new opportunities and diversify 
+              your portfolio with our unique trading features"
             center
           />
 

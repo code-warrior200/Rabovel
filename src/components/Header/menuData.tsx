@@ -31,17 +31,23 @@ const menuData: Menu[] = [
         newTab: false,
       },
       {
-        id: 46,
+        id: 4,
         title: "Term & Condition",
         path: "/",
         newTab: false,
       },
       {
-        id: 47,
+        id: 5,
         title: "Privacy Police",
         path: "/",
         newTab: false,
       },
+      {
+        id: 6,
+        title: "Our Team",
+        path: "/",
+        newTab: false,
+      }
     ],
   },
 ];

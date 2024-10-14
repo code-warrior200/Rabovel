@@ -14,11 +14,12 @@ const Hero = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="max-w-[500px]">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Discover the Future of Stock Trading
+                  Unlock Your Trading Potential with Rabovel
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Join Rabovelt and start trading in the Nigerian stock market
-                  with real-time updates, market insights, and an easy-to-use platform.
+                  Experience a new era of trading in Nigeria with Rabovel. Join 
+                  us today to explore innovative features like options and futures trading that 
+                  elevate your investment strategy. 
                 </p>
                 <Link
                   href="/signup"

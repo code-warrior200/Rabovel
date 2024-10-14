@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Open an account now to explore innovative trading options and 
+                  maximize your investment potential
                 </p>
                 <div className="flex items-center">
                   <a
@@ -123,6 +123,14 @@ const Footer = () => {
                       About
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/team"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Meet Our Team
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -164,7 +172,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Customer Care
                     </Link>
                   </li>
                   <li>
@@ -172,27 +180,21 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      Terms & Conditoin
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
             </p>
-          </div> */}
+          </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
@@ -385,7 +387,7 @@ const Footer = () => {
           </svg>
         </div>
         <div className="container mx-auto">
-          <p className="text-md bg-grey-200">&copy; 2024 Rabovelt. All rights reserved.</p>
+          <p className="text-md bg-grey-200">&copy; 2024 Rabovel. All rights reserved.</p>
         </div>
       </footer>
     </>
