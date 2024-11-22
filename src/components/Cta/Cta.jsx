@@ -29,16 +29,18 @@ const Cta = () => {
             <div className="w-full mt-10 px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.jpg"
+                  src="/images/hero/trade04.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto rounded-lg shadow-lg max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  width={700}
+                  height={500}
+                  className="mx-auto rounded-lg max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image.jpg"
+                  src="/images/hero/trade04.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full rounded-lg shadow-lg drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  width={900}
+                  height={700}
+                  className="mx-auto hidden max-w-full rounded-lg  dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
