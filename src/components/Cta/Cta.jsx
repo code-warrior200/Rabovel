@@ -235,19 +235,6 @@ const Cta = () => {
             </div>
           </div>
         </div>
-        <style jsx>{`
-        .floating-animation {
-          animation: float 2s ease-in-out infinite;
-        }
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-      `}</style>
       </div>
     </section>
   );
