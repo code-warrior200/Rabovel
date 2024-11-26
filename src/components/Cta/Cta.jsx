@@ -26,19 +26,19 @@ const Cta = () => {
             </div>
 
             <div className="w-full mt-10 px-2 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 group overflow-hidden animate-float">
+              <div className="hidden lg:block relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 group overflow-hidden animate-float">
                 <Image
-                  src="/images/hero/trade02.png"
+                  src="/images/hero/trade08.png"
                   alt="about-image"
-                  width={600}
-                  height={400}
+                  width={300}
+                  height={200}
                   className="mx-auto floating-animation rounded-lg max-w-full dark:hidden dark:drop-shadow-none lg:mr-0 transition-transform duration-500 ease-in-out group-hover:scale-110"
                 />
                 <Image
-                  src="/images/hero/trade02.png"
+                  src="/images/hero/trade08.png"
                   alt="about-image"
-                  width={500}
-                  height={300}
+                  width={350}
+                  height={250}
                   className="mx-auto floating-animation hidden max-w-full rounded-lg dark:block dark:drop-shadow-none lg:mr-0 transition-transform duration-500 ease-in-out group-hover:scale-110"
                 />
               </div>
