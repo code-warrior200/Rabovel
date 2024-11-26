@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,7 +7,10 @@ const Hero = () => {
     <>
       <div
         id="home"
-        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden text-white pb-16 pt-[120px] dark:bg-gray-dark bg-cover bg-center bg-no-repeat md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        // style={{
+        //   backgroundImage: `url('/images/hero/background1.jpg')`, // Path to your background image
+        // }}
       >
         <div className="container">
           <div className="flex flex-wrap items-center justify-between">
